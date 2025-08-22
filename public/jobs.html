@@ -2,29 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ajarnn Jobs</title>
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobs Listing</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .job-item { border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; border-radius: 5px; background: #f9f9f9; }
+    h3 { margin: 0 0 5px 0; color: #333; }
+    p { margin: 2px 0; color: #555; }
+  </style>
 </head>
 <body>
-
-<header>
-  <div class="logo">Ajarnn</div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="jobs.html">Jobs</a></li>
-    </ul>
-  </nav>
-</header>
-
-<section class="jobs-section">
-  <h1>Latest Teaching Jobs</h1>
-  <ul id="jobs-list">
-    <li>Loading jobs...</li>
-  </ul>
-</section>
-
-<script src="script.js"></script>
+  <h1>Available Jobs</h1>
+  <div id="jobs-container"></div>
+  <script src="jobs.js"></script>
 </body>
 </html>
